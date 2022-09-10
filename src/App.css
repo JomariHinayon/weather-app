@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+p {
+    font-size: 1.6rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+    font-size: 6rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    position: relative;
+    color: #040404;
+    background-image: url('./assets/cloudy.jpg');
+    background-position: center;
+    background-size: cover;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.app .search {
+    text-align: center;
+    padding: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.app .search input {
+    text-align: center;
+    padding: .5rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    background-color: rgba(196, 195, 195, 0.4);
+    border: 1px solid rgba(0, 0, 0, 0.8);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+::placeholder {
+    color: #696969;
+}
+
+.container {
+    position: relative;
+    top: 10%;
+    padding: 5rem 1rem;
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app .top {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.app .bottom {
+    display: flex;
+    gap: 6rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #FFFFFF;
+    text-align: center;
 }

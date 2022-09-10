@@ -1,3 +1,7 @@
+# Weather App
+
+You can search your location to know the temperature of the area.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
